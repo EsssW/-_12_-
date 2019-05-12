@@ -1,0 +1,211 @@
+
+.navbar{
+  background:#F97300;
+ }
+ .nav-link , .navbar-brand{
+  color: #f4f4f4;
+  cursor: pointer;
+  
+ }
+ .nav-link{
+  margin-right: 1em !important;
+  
+ }
+ .nav-link:hover{
+  background: #f4f4f4;
+  color: #f97300;
+ }
+ .navbar-collapse{
+  justify-content: flex-end;
+  font-family:sans-serif	;
+ }
+ .navbar-toggler{
+   background:#fff !important;
+ }
+ .navbar-collapse{
+  justify-content: flex-end;
+ }
+ .header{
+  background-image: url('https://www.game-refraction.com/wp-content/uploads/2017/04/Neko-Atsume-feature.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+ }
+ 
+
+ .description{
+	
+	 background: orange;
+ 
+  top: 30%;
+  margin: auto;
+  width: 540px;
+  float: left;
+  padding: 2em;
+}
+
+
+
+.description h1{
+color:#F97300 ;
+}
+.description p{
+color:#fff;
+font-size: 20px;
+width: 50%;
+line-height: 1.5;
+}
+
+
+.description button{
+border:1px  solid #F97300;
+background:#F97300;
+color:#fff;
+}
+.description2 {
+	
+	 background: orange;
+ 
+  top: 30%;
+  margin: auto;
+  width: 540px;
+  float: right;
+  padding: 2em;
+}
+.description2 h1{
+color:#F97300 ;
+}
+.description2 p{
+color:#fff;
+font-size: 20px;
+width: 50%;
+line-height: 1.5;
+}
+
+
+.description2 button{
+border:1px  solid #F97300;
+background:#F97300;
+color:#fff;
+}
+.description3 {
+	
+	 background: orange;
+ 
+  top: 30%;
+  margin:0 auto;
+  width: 540px;
+  float: right;
+  padding: 2em;
+}
+.description3 h1{
+color:#F97300 ;
+}
+.description3 p{
+color:#fff;
+font-size: 20px;
+width: 50%;
+line-height: 1.5;
+}
+
+
+.description3 button{
+border:1px  solid #F97300;
+background:#F97300;
+color:#fff;
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 46px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+#nav {
+    width:225px;
+    padding:0;
+    margin:0 auto 30px;
+    list-style:none;
+    background:#fefcc9;
+}
+
+#nav li {
+    margin:0 0 5px;
+}
+
+#nav a {
+    border:0;
+    background:transparent;
+}
+
+/* modified-NIR */
+
+#nav a {
+    display:block;
+    width:225px;
+    height:46px;
+    overflow:hidden;
+}
+
+#nav a:before {
+    content:url(sprite.png);
+    display:-moz-inline-block; /* adds support to Firefox 1.5+ */
+    display:inline-block;
+    font-size:0;
+    line-height:0;
+}
+/*
+ Multicoloured Hover Variations
+*/
+
+#social-fb:hover {
+  color: #3B5998;
+}
+#social-tw:hover {
+  color: #4099FF;
+}
+#social-gp:hover {
+  color: #d34836;
+}
+#social-em:hover {
+  color: #f39c12;
+}
+#nav-item-2 a:before         {margin:-92px 0 0;}
+#nav-item-3 a:before         {margin:-184px 0 0;}
+
+#nav-item-1 a:hover:before,
+ #nav-item-1 a:focus:before,
+ #nav-item-1 a:active:before {margin:-46px 0 0;}
+ 
+#nav-item-2 a:hover:before,
+ #nav-item-2 a:focus:before,
+ #nav-item-2 a:active:before {margin:-138px 0 0;}
+ 
+#nav-item-3 a:hover:before,
+ #nav-item-3 a:focus:before,
+ #nav-item-3 a:active:before {margin:-230px 0 0;}
+
+/* :hover hack for IE8 */
+#nav a:hover {cursor:pointer;} 
